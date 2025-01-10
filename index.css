@@ -1,0 +1,37 @@
+* {
+    font-family: monospace;
+    text-align: center;
+  }
+  h1 {
+    color: darkred;
+  }
+
+  h2 {
+    color: darkorchid;
+  }
+  
+  table {
+    border: 2px solid darkorchid;
+    margin: 0 Auto;
+  }
+
+  thead {
+    background-color: pink;
+    color: maroon;
+    font-size: 20px;
+  }
+
+  tbody th { 
+    background-color: antiquewhite;
+    color: darkred;
+    font-size: 14px;
+  }
+
+  tbody td {
+    background-color: beige;
+  }
+
+  span {
+    color: darkorchid;
+    font-weight: bolder;
+  }
