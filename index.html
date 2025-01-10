@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>My Cheat Sheet</title>
+      <link href="./resources/index.css" rel="stylesheet">
+    </head>
+    <body>
+      <h1>CSS Selectors and Specificity</h1>
+      <h2>Selectors</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Selector</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Universal</th>
+              <td>It selects all the elements of any type</td>
+              <td><span>*</span> {font-family: Verdana;}</td>
+            </tr>
+            <tr>
+              <th>Type</th>
+              <td>It matches the type of element in the HTML document</td>
+              <td><span>p</span> {color: green;}</td>
+            </tr>
+            <tr>
+              <th>Class</th>
+              <td>It selects HTML elements with a specific class name</td>
+              <td><span>.brand</span> { }</td>
+            </tr>
+            <tr>
+              <th>ID</th>
+              <td>It uses the ID attribute of an HTML element to select a specific element</td>
+              <td><span>#large-title</span> { }</td>
+            </tr>
+            <tr>
+              <th>Attribute</th>
+              <td>It selects HTML elements based on the presence of a specific attribute or the value of that attribute</td>
+              <td><span>[href]</span> {color: magenta;}</td>
+            </tr>
+            <tr>
+              <th>Pseudo-Class</th>
+              <td>It adds style to elements based on their state</td>
+              <td><span>p:hover</span> {background-color: lime;}</td>
+            </tr>
+          </tbody>
+        </table>
+      <h2>Specificity</h2>
+      <table>
+          <thead>
+            <tr>
+              <th>Selector Type</th>
+              <th>Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>ID</th>
+              <td>Highest priority, identified by the unique id attribute of an element</td>
+            </tr>
+            <tr>
+              <th>Classes and Pseudo-classes</th>
+              <td>Second highest priority, targeted using class names</td>
+            </tr>
+            <tr>
+              <th>Type</th>
+              <td>Lowest priority, applies to HTML elements</td>
+            </tr>
+          </tbody>
+        </table>
+    </body>
+  </html>
